@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.one{
+    height: 400px;
+    width: 400px;
+    background-color: #d32323;
+    text-align: center;
+    padding: 0;
+    
+
+}
+ .one p{
+    font-size: 15px;
+    letter-spacing: 10px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.mainly{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 38, 0);
+}
+.mainly span{
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+}
+.main{
+    background-color: #bbff00;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+   }
+   .box{
+    height: 400px;
+    width: 800px;
+    background-color: green;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+   }
+   .better{
+    height: 300px;
+    width: 300px;
+    background-color: #d32323;
+    border-radius: 50%;
+    
+   }
+   .contain{
+    background-color: #14df25;
+   }
+   .contain{
+    width: 1150px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 300px;
+   }
+   ul,ol{
+    list-style-type: none;
+   }
+   a{
+    text-decoration: none;
+   }
+   .menu ul {
+    display: flex;
+    column-gap: 50px;
+    font-size: 9px;
+ }
+ .menu ul li a{
+    color: #000000;
+    transition: color linear 0.7s;
+ }
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    
+}
+.container{
+    background-color: #bbff00;
+    width: 1150px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 300px;
+}
+.containers{
+    background-color: #00ff88;
+    width: 1150px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu button{
+    display: flex;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 8px;
+   
+}
+.menu button:hover{
+    background-color: transparent;
+}
+
+
+ h1{
+    background-color: rgb(214, 12, 12);
+    color: rgb(255, 255, 255);
+    margin-bottom: 400px;
+}
+.bash{
+    height: 1000px;
+    width: 25px;
+    background-color: #000000;
+    position:absolute;
+    right: 0;
+    top: -20px;
+}
+
+
+
+.third{
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.5) inset;
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.5) inset;
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.5) inset;
+    overflow-y: scroll;
+}
+h2{
+    background-color: rgb(180, 176, 176);
+    color: rgb(197, 20, 20);
+    margin: 500px;
+    text-align: center;
+    padding: 10px 0 ;
+    position: sticky;
+    left: 0;
+    top: 0;
+    
+}
